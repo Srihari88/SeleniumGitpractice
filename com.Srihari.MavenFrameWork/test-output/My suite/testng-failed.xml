@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My suite]" parallel="methods">
+  <test name="RegistrationTests(failed)" parallel="methods">
+    <classes>
+      <class name="com.Srihari.MavenFrameWork.LoginPage.RegistrationFourmValidations">
+        <methods>
+          <include name="setup"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- com.Srihari.MavenFrameWork.LoginPage.RegistrationFourmValidations -->
+      <class name="com.Srihari.MavenFrameWork.LoginPage.PresentRegisterButton">
+        <methods>
+          <include name="endTest"/>
+          <include name="setup"/>
+          <include name="VerifyRegisterButton"/>
+        </methods>
+      </class> <!-- com.Srihari.MavenFrameWork.LoginPage.PresentRegisterButton -->
+      <class name="com.Srihari.MavenFrameWork.LoginPage.RegWithOrganisationName">
+        <methods>
+          <include name="setup"/>
+          <include name="endTest"/>
+          <include name="VerifyRegistraion"/>
+        </methods>
+      </class> <!-- com.Srihari.MavenFrameWork.LoginPage.RegWithOrganisationName -->
+    </classes>
+  </test> <!-- RegistrationTests(failed) -->
+</suite> <!-- Failed suite [My suite] -->

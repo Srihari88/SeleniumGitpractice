@@ -69,3 +69,41 @@ org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://do
 	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
 !SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2017-12-06 00:24:03.156
 !MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases-for-indigo/1.4/.
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2017-12-06 00:40:21.635
+!MESSAGE No valid Android XML Editor Delegate found for file file:/Users/reenupanwar/Documents/GitPractice/com.Srihari.MavenFrameWork/testng.xml [Res com.Srihari.MavenFrameWork, type null]
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2017-12-06 00:40:50.612
+!MESSAGE Failed to load properties file for project 'com.Srihari.MavenFrameWork'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-06 00:40:54.600
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-06 00:40:54.619
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-06 00:40:56.395
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-06 00:40:56.403
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-06 00:40:57.765
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-06 00:40:57.767
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-12-06 00:41:42.445
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-12-06 00:41:42.447
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.testng.eclipse 1 0 2017-12-06 00:41:42.675
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: /Users/reenupanwar/.p2/pool/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar /Users/reenupanwar/Documents/GitPractice/com.Srihari.MavenFrameWork/target/test-classes /Users/reenupanwar/Documents/GitPractice/com.Srihari.MavenFrameWork/target/classes /Users/reenupanwar/Downloads/selenium-server-standalone-2.53.1.jar /Users/reenupanwar/.m2/repository/org/testng/testng/6.11/testng-6.11.jar /Users/reenupanwar/.m2/repository/com/beust/jcommander/1.64/jcommander-1.64.jar /Users/reenupanwar/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar /Users/reenupanwar/.m2/repository/org/apache/poi/poi/3.7/poi-3.7.jar /Users/reenupanwar/.m2/repository/org/apache/poi/poi-ooxml/3.16/poi-ooxml-3.16.jar /Users/reenupanwar/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.16/poi-ooxml-schemas-3.16.jar /Users/reenupanwar/.m2/repository/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar /Users/reenupanwar/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar /Users/reenupanwar/.m2/repository/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.jar /Users/reenupanwar/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar /Users/reenupanwar/.m2/repository/com/relevantcodes/extentreports/2.40.2/extentreports-2.40.2.jar /Users/reenupanwar/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar /Users/reenupanwar/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar /Users/reenupanwar/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar /Users/reenupanwar/.m2/repository/org/apache/commons/commons-email/1.2/commons-email-1.2.jar /Users/reenupanwar/.m2/repository/javax/mail/mail/1.4.1/mail-1.4.1.jar /Users/reenupanwar/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 55502 -protocol json -d /Users/reenupanwar/Documents/GitPractice/com.Srihari.MavenFrameWork/test-output /var/folders/1f/64bh46510zb0_lwr2b4b0nhr0000gn/T/testng-eclipse--1925746177/testng-customsuite.xml
+java -ea -classpath /Users/reenupanwar/.p2/pool/plugins/org.testng.eclipse_6.11.0.201703011520/lib/testng-remote.jar:/Users/reenupanwar/Documents/GitPractice/com.Srihari.MavenFrameWork/target/test-classes:/Users/reenupanwar/Documents/GitPractice/com.Srihari.MavenFrameWork/target/classes:/Users/reenupanwar/Downloads/selenium-server-standalone-2.53.1.jar:/Users/reenupanwar/.m2/repository/org/testng/testng/6.11/testng-6.11.jar:/Users/reenupanwar/.m2/repository/com/beust/jcommander/1.64/jcommander-1.64.jar:/Users/reenupanwar/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar:/Users/reenupanwar/.m2/repository/org/apache/poi/poi/3.7/poi-3.7.jar:/Users/reenupanwar/.m2/repository/org/apache/poi/poi-ooxml/3.16/poi-ooxml-3.16.jar:/Users/reenupanwar/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.16/poi-ooxml-schemas-3.16.jar:/Users/reenupanwar/.m2/repository/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar:/Users/reenupanwar/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/reenupanwar/.m2/repository/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.jar:/Users/reenupanwar/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/reenupanwar/.m2/repository/com/relevantcodes/extentreports/2.40.2/extentreports-2.40.2.jar:/Users/reenupanwar/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/reenupanwar/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/reenupanwar/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/reenupanwar/.m2/repository/org/apache/commons/commons-email/1.2/commons-email-1.2.jar:/Users/reenupanwar/.m2/repository/javax/mail/mail/1.4.1/mail-1.4.1.jar:/Users/reenupanwar/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar org.testng.remote.RemoteTestNG -serport 55502 -protocol json -d /Users/reenupanwar/Documents/GitPractice/com.Srihari.MavenFrameWork/test-output /var/folders/1f/64bh46510zb0_lwr2b4b0nhr0000gn/T/testng-eclipse--1925746177/testng-customsuite.xml

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="97847" started-at="2017-12-05T19:11:43Z" finished-at="2017-12-05T19:13:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="97847" started-at="2017-12-05T19:11:43Z" finished-at="2017-12-05T19:13:21Z">
+      <class name="com.Srihari.MavenFrameWork.Workload.TC01_MatchScore">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Srihari.MavenFrameWork.Workload.TC01_MatchScore@2a5ca609]" name="setup" is-config="true" duration-ms="32867" started-at="2017-12-06T00:41:43Z" finished-at="2017-12-06T00:42:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="OpenWorkload()[pri:0, instance:com.Srihari.MavenFrameWork.Workload.TC01_MatchScore@2a5ca609]" name="OpenWorkload" duration-ms="11902" started-at="2017-12-06T00:42:16Z" finished-at="2017-12-06T00:42:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenWorkload -->
+        <test-method status="PASS" signature="Match_Score()[pri:1, instance:com.Srihari.MavenFrameWork.Workload.TC01_MatchScore@2a5ca609]" name="Match_Score" duration-ms="44812" started-at="2017-12-06T00:42:28Z" finished-at="2017-12-06T00:43:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Match_Score -->
+        <test-method status="PASS" signature="ValidationOppition()[pri:2, instance:com.Srihari.MavenFrameWork.Workload.TC01_MatchScore@2a5ca609]" name="ValidationOppition" duration-ms="4668" started-at="2017-12-06T00:43:13Z" finished-at="2017-12-06T00:43:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidationOppition -->
+        <test-method status="PASS" signature="ValidationLeague()[pri:3, instance:com.Srihari.MavenFrameWork.Workload.TC01_MatchScore@2a5ca609]" name="ValidationLeague" duration-ms="3569" started-at="2017-12-06T00:43:17Z" finished-at="2017-12-06T00:43:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidationLeague -->
+      </class> <!-- com.Srihari.MavenFrameWork.Workload.TC01_MatchScore -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

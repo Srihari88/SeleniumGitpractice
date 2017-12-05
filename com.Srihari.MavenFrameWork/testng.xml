@@ -1,0 +1,59 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1">
+
+	<listeners>
+		<listener class-name="ExtentReportGeneration.ExtentReporterNG"></listener>
+	</listeners>
+
+
+	<test name="BeforeLogin">
+		<classes>
+			<class name="com.Srihari.MavenFrameWork.LoginPage.GoolgePlaystore" />
+		</classes>
+	</test>
+
+
+
+	<test name="BeforeLoginApp">
+		<classes>
+			<class name="com.Srihari.MavenFrameWork.LoginPage.CheckIApplink" />
+		</classes>
+	</test>
+
+
+	<test name="Test0">
+		<classes>
+			<class name="com.Srihari.MavenFrameWork.LoginPage.PresentRegisterButton" />
+		</classes>
+	</test>
+
+	<test name="Test1">
+		<classes>
+			<class name="com.Srihari.MavenFrameWork.LoginPage.RegWithOrganisationName" />
+		</classes>
+	</test>
+
+	<test name="Test2">
+		<classes>
+			<class
+				name="com.Srihari.MavenFrameWork.LoginPage.RegistrationFourmValidations" />
+		</classes>
+	</test>
+
+	<test name="Test3">
+		<classes>
+			<class name="com.Srihari.MavenFrameWork.LoginPage.TC001_VerifyRegistraion" />
+		</classes>
+	</test>
+	
+		<test name="WorldLoadValuesTest">
+		<classes>
+			<class name="com.Srihari.MavenFrameWork.Workload.TC_01_OpenWorkLoad" />
+		</classes>
+	</test>
+
+
+
+</suite>
+
