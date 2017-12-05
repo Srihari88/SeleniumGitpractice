@@ -28,7 +28,7 @@ public class TC01_MatchScore extends testBase {
 	public void OpenWorkload() throws Exception {
 		log.info("========Starting the test case with correct valid details=====");
 		HomePage home = new HomePage(driver);
-		home.LoginApplication("sree.hari", "9010satya");
+		home.LoginApplication("David.Davidson", "likewelt");
 		log.info("========Finished the test case correct details =====");
 		Thread.sleep(10000);
 	}
